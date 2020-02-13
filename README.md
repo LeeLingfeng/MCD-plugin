@@ -16,12 +16,22 @@
 ## savelib.py
 [原插件地址](https://github.com/TISUnion/savelib)
 
-能返回备份时间
+为适应自己进行些改写
 
 使用标签记得创建./savelib/meta.json文件
 ## backupmgr.py
 [原插件地址](https://github.com/TISUnion/backupMgr)
 
-对插件进行补全，不过只能用基本功能，有些功能还没完善
+对插件进行补全，满足基本需求
 ### 指令
-!!bp 备份
+!!bp name 名字
+
+备份并备注“名字”
+
+!!bp last
+
+查看最近一次备份
+
+!!bp restore
+
+还原
